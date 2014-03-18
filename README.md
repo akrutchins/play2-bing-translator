@@ -2,10 +2,11 @@ play2-bing-translator
 =====================
 A simple scala object to translate text with Bing Translator API
 ## Install
-Just put the file "bing.scala" into your projet and import I18N.Translator:
+Just put the file **bing.scala** into your projet and **import I18N.Translator**:
 ```
     import I18N.Translator._
 ```
+Don't forget to modify your **clientId** and **clientSecret** in the bing.scala file.
 ## Usage
 Only two methods:
 ```
